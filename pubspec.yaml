@@ -1,0 +1,75 @@
+name: AlfredAIVoiceapp
+description: Voice AI app in Flutter with history + backend
+dev_dependencies:
+  flutter_native_splash: ^2.3.10
+  flutter_launcher_icons: ^0.13.1
+
+
+
+flutter_launcher_icons:
+  android: true
+  image_path: "assets/icon/ic_launcher.png"
+  adaptive_icon_background: "#0A0E21"
+  adaptive_icon_foreground: "assets/icon/ic_launcher.png"
+
+
+
+environment:
+  sdk: ">=3.0.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # UI
+  cupertino_icons: ^1.0.8
+  google_fonts: ^6.2.1
+
+  # State management
+  provider: ^6.1.2
+
+  # HTTP / REST
+  dio: ^5.4.0
+  retrofit: ^4.0.3
+  json_annotation: ^4.9.0
+
+  # Local DB
+  floor: ^1.4.0
+  hive: ^2.2.3
+  hive_flutter: ^1.1.0
+  path_provider: ^2.1.2
+
+  # Audio
+  just_audio: ^0.9.36
+  audioplayers: ^5.2.1
+
+
+  flutter_test:
+    sdk: flutter
+
+  # Code generators
+  build_runner: ^2.4.9
+  retrofit_generator: ^8.0.6
+  floor_generator: ^1.4.0
+  json_serializable: ^6.7.1
+  hive_generator: ^2.0.1
+
+flutter:
+  assets:
+    - assets/icon/history.png
+    - assets/icon/donate.png
+    - assets/icon/coding.png
+    - assets/icon/menu.png
+    - assets/icon/arrow.png
+    - assets/icon/artificial-intelligence.png
+    - assets/icon/emran.jpg
+    - assets/icon/github.png
+    - assets/icon/linkedin.png
+    - assets/icon/email.png
+    - assets/icon/play-button-arrowhead.png
+    - assets/icon/pause.png
+    - assets/dump/dump.txt
+    - assets/voice/voice_id.txt
+    - assets/icon/banner.png
+    - assets/icon/ic_launcher.png
+
